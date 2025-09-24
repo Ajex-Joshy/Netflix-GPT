@@ -15,7 +15,7 @@ import { setLang } from "../utils/appConfig";
 const Browse = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  const [gptSearch, setGptSearch] = useState(false);
+  const [gptSearch, setGptSearch] = useState(true);
   const handleSignOut = () => {
     signOut(auth)
       .then(() => {
