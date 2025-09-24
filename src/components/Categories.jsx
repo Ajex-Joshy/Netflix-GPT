@@ -1,4 +1,4 @@
-import Card from "./cards";
+import Card from "./Cards.jsx";
 
 const Categories = ({ title, movies }) => {
   return (
