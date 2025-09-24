@@ -1,10 +1,10 @@
 import React, { useRef } from "react";
-import LANG_CONSTANTS from "../utils/languageConstants";
+import LANG_CONSTANTS from "../utils/languageConstants.js";
 import { useDispatch, useSelector } from "react-redux";
-import { addMovieArray } from "../utils/gptSlice";
-import useFindMovies from "../hooks/useFindMovies";
+import { addMovieArray } from "../utils/gptSlice.js";
+import useFindMovies from "../hooks/useFindMovies.js";
 import { GoogleGenerativeAI } from "@google/generative-ai";
-import { GEMINI_API_KEY } from "../utils/constants";
+import { GEMINI_API_KEY } from "../utils/constants.js";
 
 const GptSearchBar = () => {
   const dispatch = useDispatch();

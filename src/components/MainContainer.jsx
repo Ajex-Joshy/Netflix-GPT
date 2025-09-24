@@ -1,5 +1,5 @@
-import TrailerTitleContainer from "./TrailerTitleContainer";
-import TrailerVideoContainer from "./TrailerVideoContainer";
+import TrailerTitleContainer from "./TrailerTitleContainer.jsx";
+import TrailerVideoContainer from "./TrailerVideoContainer.jsx";
 
 const MainContainer = () => {
   return (
