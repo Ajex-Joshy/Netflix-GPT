@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { API_OPTIONS } from "../utils/constants";
 import js from "@eslint/js";
-import useTrailer from "../hooks/useTrailer";
+import useTrailer from "../hooks/useTrailer.js";
 
 const TrailerVideoContainer = () => {
   const movies = useSelector((store) => store.movies?.nowPlayingMovies);

@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import Categories from "./categories";
+import Categories from "./Categories.jsx";
 
 const SecondaryContainer = () => {
   const nowPlayingMovies = useSelector(
