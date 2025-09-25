@@ -109,7 +109,7 @@ const Login = () => {
               e.preventDefault();
               handleSubmit();
             }}
-            className="border absolute z-20 flex flex-col md:w-120 md:bg-black md:p-13 rounded-md"
+            className="border absolute z-20 flex flex-col w-10/12 md:w-120 md:bg-black md:p-13 rounded-md"
           >
             <h1 className="text-4xl text-white font-bold m-2 mb-6">
               {isSignIn ? "Sign In" : "Sign Up"}

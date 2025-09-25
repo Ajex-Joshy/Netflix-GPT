@@ -30,7 +30,7 @@ const Header = () => {
   return (
     <header className="">
       <img
-        className="w-30 pt-3 pl-2 md:w-50 sm:block lg:w-78 lg:pl-30"
+        className="w-30 pt-3 pl-2 mx-auto md:mx-0 md:w-50 sm:block lg:w-78 lg:pl-30"
         src={NETFLIX_LOGO}
         alt="Netflix Logo"
       />

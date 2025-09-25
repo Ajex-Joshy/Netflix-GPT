@@ -55,7 +55,7 @@ Example output format:
         </form>
         <button
           onClick={handleSearch}
-          className="bg-red-500 col-span-3 text-white px-6 py-2 rounded-r-md cursor-pointer hover:bg-red-600 transition"
+          className="bg-red-500 col-span-3 text-white px-6 py-2 rounded-r-md cursor-pointer mx-auto hover:bg-red-600 transition"
         >
           {LANG_CONSTANTS[lang].search}
         </button>

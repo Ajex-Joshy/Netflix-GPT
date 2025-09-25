@@ -30,11 +30,15 @@ const Browse = () => {
   useMovieList();
   return (
     <div className="w-screen overflow-hidden">
-      <div className="flex justify-between w-full bg-gradient-to-b from-black absolute z-50">
+      <div
+        className={`flex justify-between w-full bg-gradient-to-b from-black absolute z-50 ${
+          !gptSearch && "flex-col md:flex-row"
+        }`}
+      >
         <div>
           <Header />
         </div>
-        <div className="flex items-center">
+        <div className="flex items-center justify-center">
           {!gptSearch && (
             <div className="m-4">
               <select
@@ -77,7 +81,7 @@ const Browse = () => {
         </div>
       </div>
       {gptSearch ? (
-        <div>
+        <div className="bg-black">
           <MainContainer />
           <SecondaryContainer />
         </div>

@@ -6,7 +6,6 @@ import GptSuggestions from "./GptSuggestions.jsx";
 const GptSearch = () => {
   return (
     <div className="bg-black min-h-screen md:h-screen">
-      <div></div>
       <div>
         <GptSearchBar />
         <GptSuggestions />
